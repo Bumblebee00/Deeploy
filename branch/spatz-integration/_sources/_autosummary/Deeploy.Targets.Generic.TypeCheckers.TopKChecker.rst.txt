@@ -1,0 +1,41 @@
+.. SPDX-FileCopyrightText: 2024 ETH Zurich and University of Bologna
+..
+.. SPDX-License-Identifier: Apache-2.0
+
+Deeploy.Targets.Generic.TypeCheckers.TopKChecker
+================================================
+
+.. currentmodule:: Deeploy.Targets.Generic.TypeCheckers
+
+.. autoclass:: TopKChecker
+   :members:
+   :show-inheritance:
+   :inherited-members:
+
+   
+   
+   .. rubric:: Methods
+   .. automethod:: __init__
+
+   .. autosummary::
+   
+      ~TopKChecker.__init__
+      ~TopKChecker.annotateDict
+      ~TopKChecker.checkOutputType
+      ~TopKChecker.signature
+      ~TopKChecker.typeCheck
+      ~TopKChecker.typeCheckNodeInputs
+      ~TopKChecker.typeInferGlobalCtxt
+      ~TopKChecker.typeInferOutput
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+   
+      ~TopKChecker.typeDict
+   
+   
